@@ -1,0 +1,16 @@
+.start {
+    gap: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .start {
+        margin-left: 20vw;
+        flex-direction: column;
+        gap: 2px;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .time {
+        display: none;
+    }
+}

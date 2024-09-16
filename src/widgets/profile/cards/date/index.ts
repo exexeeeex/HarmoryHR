@@ -1,0 +1,1 @@
+export { ProfileCardDate } from './ui';

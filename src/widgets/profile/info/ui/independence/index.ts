@@ -1,0 +1,1 @@
+export { ProfileInfoIndependence } from './ui';

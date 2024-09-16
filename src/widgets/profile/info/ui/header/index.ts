@@ -1,0 +1,1 @@
+export { ProfileInfoHeader } from './ui';

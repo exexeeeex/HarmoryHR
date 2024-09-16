@@ -1,0 +1,1 @@
+export { ProfileCardInfo } from './ui';

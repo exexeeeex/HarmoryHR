@@ -1,0 +1,1 @@
+export { ProfileInfoSick } from './ui';

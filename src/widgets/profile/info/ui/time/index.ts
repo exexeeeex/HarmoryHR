@@ -1,0 +1,1 @@
+export { ProfileInfoTime } from './ui';

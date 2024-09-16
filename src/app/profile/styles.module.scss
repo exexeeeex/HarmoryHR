@@ -1,0 +1,26 @@
+.place {
+    padding: 0;
+    margin: 0;
+    &__main {
+        display: flex;
+        margin: 10px auto;
+        max-width: 1420px;
+        gap: 25px;
+        &__cards {
+            margin-left: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .place {
+        &__main {
+            &__cards {
+                display: none;
+            }
+        }
+    }
+}

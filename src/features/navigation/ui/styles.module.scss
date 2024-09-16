@@ -1,0 +1,55 @@
+.header {
+    flex-wrap: wrap;
+    justify-content: center;
+    &__nav {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 25px;
+        margin-left: 59px;
+        &__link {
+            padding: 16px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            transition: 0.2s linear;
+            &:hover {
+                background-color: #dae6f2;
+                cursor: pointer;
+            }
+        }
+    }
+    &__userbar {
+        margin-left: 59px;
+        flex-wrap: wrap;
+        gap: 24px;
+        &__avatar {
+            width: 38px;
+            height: 38px;
+            background-color: #dae6f2;
+            border-radius: 100%;
+            margin-left: 20px;
+        }
+    }
+    &__navmenu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        justify-content: space-between;
+        padding: 8px;
+        &__nav {
+            display: none;
+        }
+        &__userbar {
+            gap: 0;
+            display: none;
+            &__avatar {
+                display: block;
+            }
+        }
+        &__navmenu {
+            display: flex;
+        }
+    }
+}

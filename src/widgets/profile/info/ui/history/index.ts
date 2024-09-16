@@ -1,0 +1,1 @@
+export { ProfileInfoHistory } from './ui';

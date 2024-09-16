@@ -1,0 +1,1 @@
+export { ProfileCardContacts } from './ui';

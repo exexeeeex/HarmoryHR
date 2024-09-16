@@ -1,0 +1,1 @@
+export { ProfileInfoTimeCard } from './ui';
